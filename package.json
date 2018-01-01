@@ -1,0 +1,15 @@
+{
+  "name": "redgate-techtest-alexiscarlier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "nyc": "^11.4.1"
+  }
+}
