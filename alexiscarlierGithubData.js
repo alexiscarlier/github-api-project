@@ -2730,3 +2730,5 @@ var alexiscarlierJson = [
     "default_branch": "master"
   }
 ]
+
+module.exports = alexiscarlierJson;
