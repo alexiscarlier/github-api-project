@@ -1,4 +1,4 @@
-var userData = require('../alexiscarlierGithubData');
+var userData = require('../test_data/alexiscarlierGithubData');
 var GithubUser = require('../src/githubUser.js').GithubUser;
 
 describe("Github User", function() {
