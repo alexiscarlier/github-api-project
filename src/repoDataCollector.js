@@ -11,7 +11,7 @@
   }
 
   RepoDataCollector.prototype.commitData = function(apiCommitData) {
-    this._getHolidayCommits(apiCommitData);
+    this._setHolidayCommits(apiCommitData);
   }
 
   RepoDataCollector.prototype._setHolidayCommits = function(apiCommitData) {
