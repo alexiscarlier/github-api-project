@@ -22,7 +22,11 @@ $(document).ready(function() {
             repoDataCollector.commitData(data2);
           });
         });
-      })
-    })
+      });
+    });
+
+    // by this point I should have the repo data for each repository; but I think I
+    // need to make another class which agregates it, because I've only instantiated
+    // one repoDataCollector
 
 });
