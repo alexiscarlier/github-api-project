@@ -5,13 +5,14 @@
     this.otherRepositories = [];
   }
 
-  WinterClassifier.prototype.getWinterRepositories = function() {
-    return this.winterRepositories;
+  WinterClassifier.prototype.groupByWinter = function(dataset) {
+    dataset.forEach((data)=> {
+      console.log(data.name);
+      console.log(data.created_at);
+    })
+    // return this.winterRepositories;
   }
+
 
 exports.WinterClassifier = WinterClassifier;
 })(this);
-
-// module.exports = WinterClassifier;
-// var winterClassifier = new WinterClassifier();
-// console.log(winterClassifier.winterRepositories);
