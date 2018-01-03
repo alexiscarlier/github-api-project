@@ -1,4 +1,4 @@
-var chitterCommits = [
+var neighbourlyCommits = [
   {
     "days": [
       0,
@@ -615,25 +615,25 @@ var chitterCommits = [
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0
+      16,
+      5,
+      7,
+      21
     ],
-    "total": 0,
+    "total": 49,
     "week": 1512259200
   },
   {
     "days": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      42,
+      43,
+      27,
+      60,
+      13,
+      1,
       0
     ],
-    "total": 0,
+    "total": 186,
     "week": 1512864000
   },
   {
@@ -642,16 +642,16 @@ var chitterCommits = [
       0,
       0,
       0,
+      1,
       0,
-      0,
-      15
+      0
     ],
-    "total": 15,
+    "total": 1,
     "week": 1513468800
   },
   {
     "days": [
-      38,
+      0,
       0,
       0,
       0,
@@ -659,7 +659,7 @@ var chitterCommits = [
       0,
       0
     ],
-    "total": 38,
+    "total": 0,
     "week": 1514073600
   },
   {
@@ -677,4 +677,4 @@ var chitterCommits = [
   }
 ]
 
-module.exports = chitterCommits;
+module.exports = neighbourlyCommits;
