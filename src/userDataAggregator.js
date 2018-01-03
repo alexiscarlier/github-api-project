@@ -11,8 +11,6 @@
     dataCollector.commitData(repoCommitData);
     this.userHolidayWeeklyCommits += dataCollector.holidayWeeklyCommits
     this.userNormalWeeklyCommits += dataCollector.normalWeeklyCommits
-    // need getters for both of the above because I'm accessing them
-    // from another class
   }
 
   UserDataAggregator.prototype.userHolidayWeeklyCommits = function() {
