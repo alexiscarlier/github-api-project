@@ -10,5 +10,9 @@
     })
   }
 
+  GithubUser.prototype.repoNames = function() {
+    return this.repoNames;
+  }
+
 exports.GithubUser = GithubUser;
 })(this);
