@@ -6,10 +6,6 @@
     this.normalWeeklyCommits = null;
   }
 
-  RepoDataCollector.prototype.getData = function() {
-
-  }
-
   RepoDataCollector.prototype.commitData = function(apiCommitData) {
     this._setHolidayCommits(apiCommitData);
     this._setNormalCommits(apiCommitData);
@@ -27,10 +23,6 @@
         this.normalWeeklyCommits += apiCommitData[i].total/(52-this.holidayWeeks.length);
       }
     }
-  }
-
-  RepoDataCollector.prototype.additionsDeletionsData = function() {
-
   }
 
 exports.RepoDataCollector = RepoDataCollector;

@@ -12,6 +12,3 @@ describe("User Data Aggregator", function() {
     expect(userDataAggregator.userNormalWeeklyCommits).toEqual(5.02);
   });
 });
-
-
-// Havent mocked in this class
