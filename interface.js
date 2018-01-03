@@ -16,8 +16,8 @@ $(document).ready(function() {
         userDataAggregator.aggregateRepoCommits(repoCommitData);
       })
     })
-    $('#holiday-commits').text(userDataAggregator.userHolidayWeeklyCommits);
-    $('#normal-commits').text(userDataAggregator.userNormalWeeklyCommits);
+    $('#holiday-commits').text(userDataAggregator.userHolidayWeeklyCommits());
+    $('#normal-commits').text(userDataAggregator.userNormalWeeklyCommits());
   })
 
 });

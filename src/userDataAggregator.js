@@ -15,5 +15,13 @@
     // from another class
   }
 
+  UserDataAggregator.prototype.userHolidayWeeklyCommits = function() {
+    return this.userHolidayWeeklyCommits;
+  }
+
+  UserDataAggregator.prototype.userNormalWeeklyCommits = function() {
+    return this.userNormalWeeklyCommits;
+  }
+
 exports.UserDataAggregator = UserDataAggregator;
 })(this);
